@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="77FD34BE-C6EB-61D4-9165-1AD1FD4D57BF" containerWithKeyObject="2600562F-ECB1-54F5-F909-9DA9671F5182" localFKIndex="8CB8D262-07F9-A780-0ED5-67338BC2D08F" name="Artista_Productora_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>C1224B9C-7F6A-E1DB-E83D-13948AC1D005</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<referredTableLongName>Productora</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1EEEB2E-6BAA-6394-6441-E85F2F85FB9E</referredTableID>
+<keyObject>965B0D45-67D4-E094-9FA3-AAE170230D1D</keyObject>
+<referredKeyID>965B0D45-67D4-E094-9FA3-AAE170230D1D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idProductora</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

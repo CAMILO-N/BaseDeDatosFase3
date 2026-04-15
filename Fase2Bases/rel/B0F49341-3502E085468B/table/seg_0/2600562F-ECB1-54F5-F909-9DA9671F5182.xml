@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2600562F-ECB1-54F5-F909-9DA9671F5182" name="Artista">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>3EC6C140-0410-C96F-DD73-C76FF0BD32D7</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idArtista" id="DB840E1B-370D-5E7E-219C-4261482F4273">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Identificador unico del artista, llave primaria ]]></comment>
+<generatorID>D1282EC8-3C1D-0045-FB72-DF7787F5EA7B</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreArtista" id="EC013280-AE34-4BB7-A46D-EAC46FF14DB5">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Nombre del artista / banda ]]></comment>
+<generatorID>E43611D5-734C-F043-21A8-711F62E23620</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paisOrigenArtista" id="EF4523AD-159D-457F-C2FF-4ACFACA944FD">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Pais del artista]]></comment>
+<generatorID>BAB13CDA-C45A-AC7C-F4B7-00209A32FDFA</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcionArtista" id="F8F0B0C5-B7C0-4640-86E6-9C33C26B1808">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Detalles o descripcion de los artistas]]></comment>
+<generatorID>FCC7AA36-443F-3605-5524-B6481B8208BC</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Productora_idProductora" id="34AC0783-7794-CE24-14B4-B897E91BAF48">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Identificador unico de la prodcutora ]]></comment>
+<generatorID>8F3302C8-24A6-0C47-5F09-59C97103C8D8</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77FD34BE-C6EB-61D4-9165-1AD1FD4D57BF" referredColumn="3F6416BF-137B-9A9A-50BE-9F94BD750EEA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C14E2E6B-FA81-8657-71F4-26396A77D017" name="Artista_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>4DBDD5C7-45CF-E5E5-0CDF-A8B0F20EFBD6</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB840E1B-370D-5E7E-219C-4261482F4273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CB8D262-07F9-A780-0ED5-67338BC2D08F" name="Artista_Productora_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>C1224B9C-7F6A-E1DB-E83D-13948AC1D005</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34AC0783-7794-CE24-14B4-B897E91BAF48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

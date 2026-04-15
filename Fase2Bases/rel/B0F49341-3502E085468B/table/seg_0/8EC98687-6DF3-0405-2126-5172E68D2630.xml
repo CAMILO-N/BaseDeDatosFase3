@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EC98687-6DF3-0405-2126-5172E68D2630" name="Usuario">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>21506271-1325-3B6C-3CF4-9F38AAA029FC</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUsuario" id="A9BCD9CC-774C-C44B-C695-C9702681AFB8">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
+<generatorID>36168DD3-F4E9-BAD8-5AC8-7B899D83EAA7</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreUsuario" id="6A63DEBC-83A3-7686-BEC1-AEF317F71751">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Nombre primario del usuario no puede ser null.  ]]></comment>
+<generatorID>6FAB4075-FDB3-6F80-7CED-BC2A1D73E28F</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidoUsuario" id="A61F7CF2-DFD6-551D-C3A0-AED22FABEDAD">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[apellid primario del usuario no puede ser null.  ]]></comment>
+<generatorID>E9EBB5B1-FFF5-89A9-4859-FBC07158DCB9</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundoNombreUsuario" id="03AB98D8-5775-B992-B3DA-36163C776EC3">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Nombre adicional del usuario peude ser nulo. ]]></comment>
+<generatorID>B67953F6-5F08-173A-4963-3187ED47A991</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundoApellidoUsuario" id="6DCBC15F-3EBE-B28D-2FCF-876005BB8175">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Segundo apellido del usuario puede ser opcional]]></comment>
+<generatorID>AC09842A-BF87-56C0-A7EC-D99E16062C23</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correoUsuario" id="C015B2F4-7F8E-AB14-B92D-D354FF7B2FA1">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[correo necesario para iniciar sesion, no puede ser nulo ni repertirse]]></comment>
+<generatorID>7C81FEB2-0107-D276-33C9-0F67FF5E5FE4</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaRegistroUsuario" id="CBF6F333-7120-1277-5DB4-200E035EC521">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Fecha en la que se inscribe el usuario]]></comment>
+<generatorID>2D7C5E11-9CBB-C37D-364B-49798F81D5F8</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1528B9B9-A087-A268-5232-9365B549C018" name="Usuario_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>082E2974-A7EA-1EDF-BDAE-B3B256BDF0F5</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9BCD9CC-774C-C44B-C695-C9702681AFB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D16B2ADD-507C-08C7-9ABE-3BCBC2D95555" name="Usuario_correoUsuario_UN">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Atributo unico por correo]]></comment>
+<generatorID>E27C9067-C3BF-9D7C-BA13-826E8D9651F0</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C015B2F4-7F8E-AB14-B92D-D354FF7B2FA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

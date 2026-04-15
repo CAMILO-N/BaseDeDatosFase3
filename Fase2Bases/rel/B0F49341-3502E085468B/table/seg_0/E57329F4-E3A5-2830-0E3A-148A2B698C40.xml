@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E57329F4-E3A5-2830-0E3A-148A2B698C40" name="Album">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>40F59238-C7F5-F588-9026-27D1D04B77D9</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAlbum" id="E291A3E0-495A-AA36-E960-BAAC4B231832">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Identificador unico del album]]></comment>
+<generatorID>F60F93A0-8515-1304-F0D9-B88732D3FD4E</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tituloAlbum" id="FD60A534-D625-480B-CAF5-9F5A89824929">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Nombre del album no puede ser null
+]]></comment>
+<generatorID>6698371F-77DE-98EE-16BF-CB2C8329EC09</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaLanzamientoAlbum" id="81ACFD2E-B51B-5488-DC52-D6A69EE68ABA">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Fecha en la cual se lanza el album]]></comment>
+<generatorID>007AAD0A-0BD5-0DB4-3BBE-2A7F434D3F7D</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41C27467-2D48-88C1-2ABE-7AB51AACEB25" name="Album_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>DC416BBA-64ED-630B-2081-0E4B9C130028</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E291A3E0-495A-AA36-E960-BAAC4B231832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

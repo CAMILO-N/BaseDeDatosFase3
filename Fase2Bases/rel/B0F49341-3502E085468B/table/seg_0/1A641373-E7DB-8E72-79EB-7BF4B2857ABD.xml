@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A641373-E7DB-8E72-79EB-7BF4B2857ABD" name="CancionPlaylist">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cancion_idCancion" id="084CB149-9D9B-8A0A-20FE-4C188A0F568B">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="356B8201-55BE-EA28-4F22-112E90E589F8" referredColumn="449880C4-BC12-7E1D-4998-973E4ECF9C1B"/>
+</associations>
+</Column>
+<Column name="Playlist_idPlaylist" id="91712A31-0738-B8FA-FEE0-FE1878311A19">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F63C92-C9A1-DEA3-778B-8C434AC5AAEA" referredColumn="96117A31-6FCF-8904-434A-4156F243F173"/>
+</associations>
+</Column>
+<Column name="Playlist_idUsuario" id="4D387183-2899-4887-D630-2E53880D8466">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F63C92-C9A1-DEA3-778B-8C434AC5AAEA" referredColumn="1D40B044-B9F4-623B-EC19-AB83F3C1EC81"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34BE726E-50A0-0B57-B8B3-FD5022FF59B6" name="CancionPlaylist_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="084CB149-9D9B-8A0A-20FE-4C188A0F568B"/>
+<colUsage columnID="91712A31-0738-B8FA-FEE0-FE1878311A19"/>
+<colUsage columnID="4D387183-2899-4887-D630-2E53880D8466"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53486077-B5DE-FCED-FBCF-F332434232CD" name="CancionPlaylist_Cancion_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>793F90AB-2042-65F1-0069-24CB71836A39</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="084CB149-9D9B-8A0A-20FE-4C188A0F568B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13D14B8F-6936-D163-13DB-50A380F1980F" name="CancionPlaylist_Playlist_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>793F90AB-2042-65F1-0069-24CB71836A39</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91712A31-0738-B8FA-FEE0-FE1878311A19"/>
+<colUsage columnID="4D387183-2899-4887-D630-2E53880D8466"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

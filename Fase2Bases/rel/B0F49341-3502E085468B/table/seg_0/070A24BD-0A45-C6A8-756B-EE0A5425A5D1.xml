@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="070A24BD-0A45-C6A8-756B-EE0A5425A5D1" name="Reproduccion">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>C2815FDD-7B65-2586-D8E0-B1E664062CBC</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idReproduccion" id="C1E706E7-7909-531B-8AA2-1CB0470D5DC5">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Identirficador unico del evento reproduccion ]]></comment>
+<generatorID>7B063E77-F607-A752-A450-943D05418D87</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaReproduccion" id="8C6FCBE4-844C-C538-E3BF-A2AE8CD587A4">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[fecha de reproduccion ]]></comment>
+<generatorID>36F17AC4-A746-AE3C-EA65-8229F0A4825F</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracionReproduccion" id="313FC634-701C-251D-96CB-C548F1993D2E">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Duraciion de la reproduccion no puede ser menor a 0 o null]]></comment>
+<generatorID>15BBF84A-EDCC-1956-2CAE-FBF162F91B8B</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_idUsuario" id="C0869991-23D9-F7A7-C644-0322ABAD0E79">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
+<generatorID>C38BB8D9-FFE5-8A78-D71F-8A20CA5D2C16</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4338483-30EE-18A6-45A7-4DE364259635" referredColumn="A9BCD9CC-774C-C44B-C695-C9702681AFB8"/>
+</associations>
+</Column>
+<Column name="Cancion_idCancion" id="9347AB93-EB34-66FE-87EC-E47B2219E05B">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
+<generatorID>D22777CE-DE1A-601D-8DBA-748192B077CA</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D753B1DA-0EE9-254F-27A7-1EA277832A3A" referredColumn="449880C4-BC12-7E1D-4998-973E4ECF9C1B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68C5D1AB-825E-D50C-6168-30CC243D7500" name="Reproduccion_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>5B3A797B-96BF-A381-53E8-A118C2CD203F</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1E706E7-7909-531B-8AA2-1CB0470D5DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57894467-5C37-551A-03B9-717A911C393B" name="Reproduccion_Cancion_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>31004DE5-B73C-F233-F96F-8EC66A0C4F1C</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9347AB93-EB34-66FE-87EC-E47B2219E05B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14C8A36B-E903-F2FD-F809-B9C16735616C" name="Reproduccion_Usuario_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>647E3C33-3751-BEDA-C75D-488A8947B721</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0869991-23D9-F7A7-C644-0322ABAD0E79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

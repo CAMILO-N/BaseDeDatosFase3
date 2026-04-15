@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A091FAF1-346B-1E4C-6D88-85EAD61D1094" name="Cancion">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>B92A0DA2-3517-2A16-1ACC-6398A479323A</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCancion" id="449880C4-BC12-7E1D-4998-973E4ECF9C1B">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
+<generatorID>20B7C25F-1C30-8A37-B0BF-6224DF2A4151</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tituloCancion" id="1AA21D52-6CC6-1F47-B1B9-7C9438B7E1CE">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Nombre de la cancion]]></comment>
+<generatorID>49D46FF3-E285-6C58-1E41-C8A9CDCCABDF</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracionCancion" id="B4ADAD92-5468-5DD8-2772-051DDDA60ECE">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Duracion de la cancion, basado en minutos, es flotante:
+ej: 5.25. 5 minutos 25 segundos]]></comment>
+<generatorID>10FD0AAF-6276-3B4D-B610-5F747660CFF2</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<constraintName>CONSTRAIN_duracionCancion</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0.10</beginValue>
+<endValue>10000000</endValue>
+<description>DuracionCancion</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="idiomaCancion" id="CEE354DC-62DD-C4A7-2BE5-E3641FA5EA20">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Idioma de la cancion]]></comment>
+<generatorID>E7A92F26-4946-47BD-79DA-DFB5BB6164F6</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Album_idAlbum" id="333E2B1F-453B-090C-48CB-202E9782D9C6">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Identificador unico del album]]></comment>
+<generatorID>1C8D6B24-BF4B-C7DC-F5E2-1FF86C6C74FF</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A0044E1-3985-B84E-7286-5372197050B0" referredColumn="E291A3E0-495A-AA36-E960-BAAC4B231832"/>
+</associations>
+</Column>
+<Column name="Genero_idGenero" id="036951D5-3EB3-85A4-1D6F-319A170A7F26">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>B271B2E8-4675-3A98-3318-D154CDEB73C4</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E442185A-F13C-3A81-1165-4E13B8ACE97E" referredColumn="DD7D0710-99A0-C1F8-68EF-BC17D74ECF33"/>
+</associations>
+</Column>
+<Column name="idGenero" id="E9A35ED9-4AEB-D615-7BB1-75182BD5AEBA">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:47:41 UTC</createdTime>
+<generatorID>57042B9F-48B5-4D2F-7BB5-449AE3C25B7D</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75B240B3-24CC-F1D8-58B4-4250EE550D78" name="Cancion_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>E6ACA592-CB64-51E7-3015-5B29C2ECC90D</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="449880C4-BC12-7E1D-4998-973E4ECF9C1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E622DBD9-74A0-1E9D-CBA8-6B36014224CE" name="Cancion_Album_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>FF77D6CC-A7EA-52E4-17C1-000B6623D693</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="333E2B1F-453B-090C-48CB-202E9782D9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93C200B2-5716-B2CE-4C05-39A03C899031" name="Cancion_Genero_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>B6F1A2D4-1752-B6BA-01F0-0336619C275B</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="036951D5-3EB3-85A4-1D6F-319A170A7F26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

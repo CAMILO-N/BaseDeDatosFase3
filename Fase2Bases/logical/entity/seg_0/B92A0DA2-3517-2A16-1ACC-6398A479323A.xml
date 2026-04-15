@@ -63,32 +63,6 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 </rangeDef>
 </listOfRanges>
 </Attribute>
-<Attribute name="generoCancion" id="EB1DE7AD-D933-6F49-891F-76ED216CA139">
-<createdBy>CAMOL</createdBy>
-<createdTime>2026-04-14 21:01:47 UTC</createdTime>
-<comment><![CDATA[Generos de canciones: Pop, rock, hip'hop,electronica, clasica, jazz, latina, es obligatorio. 
-
-]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
-<engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
-</engineerTo>
-<constraintName>CHK_listaGeneroCancion</constraintName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<listOfValues>
-<valueDef value="Hip-hop / Rap" description="Centrado en el ritmo, la rima y la expresión urbana."/>
-<valueDef value="Jazz" description="Se caracteriza por la improvisación, armonías complejas y ritmos variados."/>
-<valueDef value="Música clásica" description="Composiciones formales y estructuradas, normalmente interpretadas por orquestas."/>
-<valueDef value="Música electrónica" description="Creada con instrumentos digitales, muy presente en clubes y festivales."/>
-<valueDef value="Música latina" description="Agrupa estilos originarios de América Latina como salsa, reggaetón, bachata, cumbia, entre otros."/>
-<valueDef value="Pop" description="Género comercial y masivo, enfocado en melodías simples y pegajosas."/>
-<valueDef value="Rock" description="Basado en guitarras eléctricas, batería y bajo, con una gran variedad de estilos derivados."/>
-</listOfValues>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="idiomaCancion" id="E7A92F26-4946-47BD-79DA-DFB5BB6164F6">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:07:51 UTC</createdTime>
@@ -103,21 +77,6 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="idArtista" id="54B61A03-5239-51EC-5B2F-F0B278679547">
-<createdBy>CAMOL</createdBy>
-<createdTime>2026-04-14 23:39:23 UTC</createdTime>
-<comment><![CDATA[Identificador unico del artista, llave primaria ]]></comment>
-<generatorID>A3027EB4-2899-2919-4536-8C94748B2332</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
-<engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
-</engineerTo>
-<referedAttribute>D1282EC8-3C1D-0045-FB72-DF7787F5EA7B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idAlbum" id="1C8D6B24-BF4B-C7DC-F5E2-1FF86C6C74FF">
 <createdBy>CAMOL</createdBy>
@@ -135,17 +94,15 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idReproduccion" id="880C1FA9-1DB2-E07D-D322-03F9A288AA87">
+<Attribute name="idGenero" id="57042B9F-48B5-4D2F-7BB5-449AE3C25B7D">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 02:13:10 UTC</createdTime>
-<comment><![CDATA[Identirficador unico del evento reproduccion ]]></comment>
-<generatorID>31004DE5-B73C-F233-F96F-8EC66A0C4F1C</generatorID>
+<createdTime>2026-04-15 04:46:32 UTC</createdTime>
+<generatorID>B6F1A2D4-1752-B6BA-01F0-0336619C275B</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
-<referedAttribute>7B063E77-F607-A752-A450-943D05418D87</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
+<referedAttribute>AF4596F8-D312-35A0-06E7-F84A261108BF</referedAttribute>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

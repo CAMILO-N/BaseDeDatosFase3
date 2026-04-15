@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1EEEB2E-6BAA-6394-6441-E85F2F85FB9E" name="Productora">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>B73652DF-0DC1-90B1-4A90-E9BCAD291067</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProductora" id="3F6416BF-137B-9A9A-50BE-9F94BD750EEA">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Identificador unico de la prodcutora ]]></comment>
+<generatorID>61F2C705-4ECE-6201-A798-662D0E3408A6</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreProductora" id="D111164A-EF7A-AF9F-1556-BA71EF7FD9F7">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Nombre de la prodcutora, este no puede ser nulo ]]></comment>
+<generatorID>2F94D0F8-EA2D-0833-B26D-090173A64D2F</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paisProductora" id="54940F42-7FC8-A781-585A-41021937BAC4">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Pais de origen de la productora ]]></comment>
+<generatorID>B3C6F9BF-705D-6F43-D903-915CA4FB87CE</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correoProductora" id="2DC64AC7-623B-F39F-A6AF-F87F16061AD5">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<comment><![CDATA[Correo asociado a la prodcutora no puede ser nulo ni repetirse ]]></comment>
+<generatorID>892A1DC8-3548-5FA9-A540-84C147A0DCAB</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="965B0D45-67D4-E094-9FA3-AAE170230D1D" name="Productora_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>602D7EE3-52D8-068A-EA25-B49E5B037774</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F6416BF-137B-9A9A-50BE-9F94BD750EEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3785E1F-82C8-E4E1-5D8A-18F9BA74D36C" name="Productora_correoProductora_UN">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>268A1FF8-20F3-583B-E248-316DF7B19C32</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DC64AC7-623B-F39F-A6AF-F87F16061AD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

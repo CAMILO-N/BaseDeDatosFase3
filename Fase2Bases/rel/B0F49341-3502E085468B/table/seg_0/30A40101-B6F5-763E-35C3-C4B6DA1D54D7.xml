@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30A40101-B6F5-763E-35C3-C4B6DA1D54D7" name="UsuarioCancion">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuario_idUsuario" id="CE0D05C3-27A3-61E8-A49F-22AD1F15E02A">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53355EDC-701D-6083-D6FB-CFB5F3C8E247" referredColumn="A9BCD9CC-774C-C44B-C695-C9702681AFB8"/>
+</associations>
+</Column>
+<Column name="Cancion_idCancion" id="900B702F-1438-387A-EA81-56527EA751A4">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E9BC6B1-BFF8-3CB9-6F6B-EE7C41D9A07C" referredColumn="449880C4-BC12-7E1D-4998-973E4ECF9C1B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="828A6230-F675-F946-1BAA-A41571A6AE8F" name="UsuarioCancion_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE0D05C3-27A3-61E8-A49F-22AD1F15E02A"/>
+<colUsage columnID="900B702F-1438-387A-EA81-56527EA751A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5A75425-4044-A76B-B9FE-AE59EA391A67" name="UsuarioCancion_Usuario_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>CEE9E792-7834-E880-34A5-7E44C28A9DDE</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE0D05C3-27A3-61E8-A49F-22AD1F15E02A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2070338C-2901-E21A-B52A-8DF8864C6C0A" name="UsuarioCancion_Cancion_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<generatorID>CEE9E792-7834-E880-34A5-7E44C28A9DDE</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="900B702F-1438-387A-EA81-56527EA751A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

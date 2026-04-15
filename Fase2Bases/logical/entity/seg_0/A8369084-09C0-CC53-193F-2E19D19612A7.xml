@@ -54,9 +54,9 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idSuscripcion" id="E083B3F6-CD84-34DE-EC6B-C484351493BF">
+<Attribute name="idSuscripcion" id="D5C9101E-761A-9744-5367-05BFCCDC43A3">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 01:56:05 UTC</createdTime>
+<createdTime>2026-04-15 04:48:22 UTC</createdTime>
 <comment><![CDATA[Identificador uinico de la suscripcion ]]></comment>
 <generatorID>C0036D15-6149-FE1A-062B-DD7B088102DC</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
@@ -66,8 +66,7 @@
 <referedAttribute>7739A561-C055-77E1-58E7-6E379DAEA8A5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -76,8 +75,9 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:43:38 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -66,6 +66,21 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idCancion" id="E870F394-C491-1D67-4496-4DE84EFB35C7">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 03:32:58 UTC</createdTime>
+<comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
+<generatorID>3421FDAF-6CD1-E934-F205-59C85630ECD7</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<referedAttribute>20B7C25F-1C30-8A37-B0BF-6224DF2A4151</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="29AC4FB2-966B-2E52-E7B4-1C6ED0F8E17E" name="Regalia PK">
