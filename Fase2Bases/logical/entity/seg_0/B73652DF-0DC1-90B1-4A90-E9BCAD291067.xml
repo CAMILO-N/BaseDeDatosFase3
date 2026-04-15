@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B73652DF-0DC1-90B1-4A90-E9BCAD291067" name="Productora">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:24:40 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProductora" id="61F2C705-4ECE-6201-A798-662D0E3408A6">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:24:45 UTC</createdTime>
+<comment><![CDATA[Identificador unico de la prodcutora ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreProductora" id="2F94D0F8-EA2D-0833-B26D-090173A64D2F">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:25:10 UTC</createdTime>
+<comment><![CDATA[Nombre de la prodcutora, este no puede ser nulo ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paisProductora" id="B3C6F9BF-705D-6F43-D903-915CA4FB87CE">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:25:57 UTC</createdTime>
+<comment><![CDATA[Pais de origen de la productora ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correoProductora" id="892A1DC8-3548-5FA9-A540-84C147A0DCAB">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:26:44 UTC</createdTime>
+<comment><![CDATA[Correo asociado a la prodcutora no puede ser nulo ni repetirse ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="602D7EE3-52D8-068A-EA25-B49E5B037774" name="Productora PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:24:54 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61F2C705-4ECE-6201-A798-662D0E3408A6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="268A1FF8-20F3-583B-E248-316DF7B19C32" name="UN_correoProductora">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:27:29 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<newElementsIDs>892A1DC8-3548-5FA9-A540-84C147A0DCAB</newElementsIDs>
+<usedAttributes>
+<attributeRef>892A1DC8-3548-5FA9-A540-84C147A0DCAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

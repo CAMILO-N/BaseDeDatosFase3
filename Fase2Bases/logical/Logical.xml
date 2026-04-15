@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8E179698-610F-990A-A022-9FF8ED084DFB" mainViewID="53D2A51D-87D6-C859-0D4D-E152F40D6007">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:13:27 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

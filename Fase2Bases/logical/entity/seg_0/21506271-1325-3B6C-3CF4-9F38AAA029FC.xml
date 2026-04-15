@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21506271-1325-3B6C-3CF4-9F38AAA029FC" name="Usuario">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:15:35 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idUsuario" id="36168DD3-F4E9-BAD8-5AC8-7B899D83EAA7">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:15:59 UTC</createdTime>
+<comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreUsuario" id="6FAB4075-FDB3-6F80-7CED-BC2A1D73E28F">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:19:56 UTC</createdTime>
+<comment><![CDATA[Nombre primario del usuario no puede ser null.  ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidoUsuario" id="E9EBB5B1-FFF5-89A9-4859-FBC07158DCB9">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:25:05 UTC</createdTime>
+<comment><![CDATA[apellid primario del usuario no puede ser null.  ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundoNombreUsuario" id="B67953F6-5F08-173A-4963-3187ED47A991">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:25:56 UTC</createdTime>
+<comment><![CDATA[Nombre adicional del usuario peude ser nulo. ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundoApellidoUsuario" id="AC09842A-BF87-56C0-A7EC-D99E16062C23">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:26:36 UTC</createdTime>
+<comment><![CDATA[Segundo apellido del usuario puede ser opcional]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correoUsuario" id="7C81FEB2-0107-D276-33C9-0F67FF5E5FE4">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:27:54 UTC</createdTime>
+<comment><![CDATA[correo necesario para iniciar sesion, no puede ser nulo ni repertirse]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaRegistroUsuario" id="2D7C5E11-9CBB-C37D-364B-49798F81D5F8">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:44:10 UTC</createdTime>
+<comment><![CDATA[Fecha en la que se inscribe el usuario]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="082E2974-A7EA-1EDF-BDAE-B3B256BDF0F5" name="Usuario PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:17:29 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36168DD3-F4E9-BAD8-5AC8-7B899D83EAA7</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E27C9067-C3BF-9D7C-BA13-826E8D9651F0" name="UN_correoUsuario">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:39:16 UTC</createdTime>
+<comment><![CDATA[Atributo unico por correo]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<newElementsIDs>7C81FEB2-0107-D276-33C9-0F67FF5E5FE4</newElementsIDs>
+<usedAttributes>
+<attributeRef>7C81FEB2-0107-D276-33C9-0F67FF5E5FE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

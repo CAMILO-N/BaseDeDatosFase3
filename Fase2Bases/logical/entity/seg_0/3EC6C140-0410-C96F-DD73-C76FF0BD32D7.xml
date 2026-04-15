@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EC6C140-0410-C96F-DD73-C76FF0BD32D7" name="Artista">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:18:01 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idArtista" id="D1282EC8-3C1D-0045-FB72-DF7787F5EA7B">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:18:06 UTC</createdTime>
+<comment><![CDATA[Identificador unico del artista, llave primaria ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreArtista" id="E43611D5-734C-F043-21A8-711F62E23620">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:18:31 UTC</createdTime>
+<comment><![CDATA[Nombre del artista / banda ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paisOrigenArtista" id="BAB13CDA-C45A-AC7C-F4B7-00209A32FDFA">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:21:44 UTC</createdTime>
+<comment><![CDATA[Pais del artista]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcionArtista" id="FCC7AA36-443F-3605-5524-B6481B8208BC">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:23:00 UTC</createdTime>
+<comment><![CDATA[Detalles o descripcion de los artistas]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProductora" id="8F3302C8-24A6-0C47-5F09-59C97103C8D8">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 23:50:27 UTC</createdTime>
+<comment><![CDATA[Identificador unico de la prodcutora ]]></comment>
+<generatorID>C1224B9C-7F6A-E1DB-E83D-13948AC1D005</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<referedAttribute>61F2C705-4ECE-6201-A798-662D0E3408A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DBDD5C7-45CF-E5E5-0CDF-A8B0F20EFBD6" name="Artista PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:18:15 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1282EC8-3C1D-0045-FB72-DF7787F5EA7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

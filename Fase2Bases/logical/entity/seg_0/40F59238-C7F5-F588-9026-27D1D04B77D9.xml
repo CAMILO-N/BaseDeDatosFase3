@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40F59238-C7F5-F588-9026-27D1D04B77D9" name="Album">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:14:29 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAlbum" id="F60F93A0-8515-1304-F0D9-B88732D3FD4E">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:15:10 UTC</createdTime>
+<comment><![CDATA[Identificador unico del album]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tituloAlbum" id="6698371F-77DE-98EE-16BF-CB2C8329EC09">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:15:54 UTC</createdTime>
+<comment><![CDATA[Nombre del album no puede ser null
+]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaLanzamientoAlbum" id="007AAD0A-0BD5-0DB4-3BBE-2A7F434D3F7D">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:16:33 UTC</createdTime>
+<comment><![CDATA[Fecha en la cual se lanza el album]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC416BBA-64ED-630B-2081-0E4B9C130028" name="Album PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:15:34 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F60F93A0-8515-1304-F0D9-B88732D3FD4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

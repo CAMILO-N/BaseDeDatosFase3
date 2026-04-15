@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44FC2A7D-FACB-1F16-0EA3-344BFECA601B" name="Playlist">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:45:11 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPlaylist" id="8F9F2C23-C584-722A-5E3C-A62DAE84CEE8">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:48:13 UTC</createdTime>
+<comment><![CDATA[Id principal y unico de la playlist ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombrePlaylist" id="059EE56B-5762-1695-B2C2-B676656AF170">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:48:46 UTC</createdTime>
+<comment><![CDATA[Nombre principal del playlist no se puede repetir ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaCreacionPlaylist" id="56A80980-2858-028F-09E5-50B425DBA3E8">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:51:49 UTC</createdTime>
+<comment><![CDATA[Fecha de ceracion de la playlist ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="privacidadPlaylist" id="0BC22C8D-9A42-EF81-C620-4C6454A081A0">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:52:45 UTC</createdTime>
+<comment><![CDATA[Tipo de playlist: Publica, privada. ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<constraintName>CHK_privacidadPlaylist</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Privada" description="La playlist es accesible solo a la persona que la creo"/>
+<valueDef value="Publica" description="La playlist puede ser accesible a todos"/>
+</listOfValues>
+<defaultValue>Privada</defaultValue>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcionPlaylist" id="F5E6909A-4E67-1C51-4A13-FD08A42E5DE2">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:57:40 UTC</createdTime>
+<comment><![CDATA[Descripcion o comentario de la playlist ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="813B9FFC-5130-BB88-30DD-3A9080FD7B41">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 23:34:01 UTC</createdTime>
+<comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
+<generatorID>D5213FD2-B067-F9F5-78CD-28A3C8B90B67</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<referedAttribute>36168DD3-F4E9-BAD8-5AC8-7B899D83EAA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8069A117-6D54-F7F2-B114-AF03E5AD8E40" name="Playlist PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:48:32 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8F9F2C23-C584-722A-5E3C-A62DAE84CEE8</attributeRef>
+<attributeRef>813B9FFC-5130-BB88-30DD-3A9080FD7B41</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="1BE2C810-DF4B-3EF6-5790-BADA23BC25FB" name="UN_nombrePlaylist">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:50:18 UTC</createdTime>
+<comment><![CDATA[Nombre de playlist unico]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<newElementsIDs>059EE56B-5762-1695-B2C2-B676656AF170</newElementsIDs>
+<usedAttributes>
+<attributeRef>059EE56B-5762-1695-B2C2-B676656AF170</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

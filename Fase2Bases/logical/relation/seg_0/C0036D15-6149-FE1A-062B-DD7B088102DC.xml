@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SuscripcionPago" directorySegmentName="seg_0" id="C0036D15-6149-FE1A-062B-DD7B088102DC">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 01:56:05 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<sourcePk>2E9CB5E8-4FA8-3A43-D260-725DF6B14DFB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3429668F-DAA2-C3A0-474B-27D3E89929B6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8369084-09C0-CC53-193F-2E19D19612A7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

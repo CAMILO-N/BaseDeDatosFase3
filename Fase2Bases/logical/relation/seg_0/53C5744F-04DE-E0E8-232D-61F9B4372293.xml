@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UsuarioArtista" directorySegmentName="seg_0" id="53C5744F-04DE-E0E8-232D-61F9B4372293">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 23:53:12 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<sourcePk>082E2974-A7EA-1EDF-BDAE-B3B256BDF0F5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>21506271-1325-3B6C-3CF4-9F38AAA029FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3EC6C140-0410-C96F-DD73-C76FF0BD32D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

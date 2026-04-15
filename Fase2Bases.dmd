@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Fase2Bases" id="8ADC2B91-3F13-C342-05A3-53192D1E5BA2" version="3.5">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:13:27 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8ADC2B91-3F13-C342-05A3-53192D1E5BA2</designId>
+</OSDM_Design>

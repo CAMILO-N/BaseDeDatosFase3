@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2815FDD-7B65-2586-D8E0-B1E664062CBC" name="Reproduccion">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:55:01 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idReproduccion" id="7B063E77-F607-A752-A450-943D05418D87">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:55:07 UTC</createdTime>
+<comment><![CDATA[Identirficador unico del evento reproduccion ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaReproduccion" id="36F17AC4-A746-AE3C-EA65-8229F0A4825F">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:55:29 UTC</createdTime>
+<comment><![CDATA[fecha de reproduccion ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracionReproduccion" id="15BBF84A-EDCC-1956-2CAE-FBF162F91B8B">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:58:10 UTC</createdTime>
+<comment><![CDATA[Duraciion de la reproduccion no puede ser menor a 0 o null]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="C38BB8D9-FFE5-8A78-D71F-8A20CA5D2C16">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 02:08:30 UTC</createdTime>
+<comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
+<generatorID>647E3C33-3751-BEDA-C75D-488A8947B721</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<referedAttribute>36168DD3-F4E9-BAD8-5AC8-7B899D83EAA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B3A797B-96BF-A381-53E8-A118C2CD203F" name="Reproduccion PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:55:17 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B063E77-F607-A752-A450-943D05418D87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

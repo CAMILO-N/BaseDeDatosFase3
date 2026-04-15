@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ProductoraArtista" directorySegmentName="seg_0" id="C1224B9C-7F6A-E1DB-E83D-13948AC1D005">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 23:50:27 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<sourcePk>602D7EE3-52D8-068A-EA25-B49E5B037774</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B73652DF-0DC1-90B1-4A90-E9BCAD291067</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3EC6C140-0410-C96F-DD73-C76FF0BD32D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

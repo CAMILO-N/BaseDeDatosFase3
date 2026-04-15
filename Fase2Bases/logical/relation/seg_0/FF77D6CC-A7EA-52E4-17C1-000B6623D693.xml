@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CancionAlbum" directorySegmentName="seg_0" id="FF77D6CC-A7EA-52E4-17C1-000B6623D693">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 23:47:13 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<sourcePk>E6ACA592-CB64-51E7-3015-5B29C2ECC90D</sourcePk>
+<targetPk>DC416BBA-64ED-630B-2081-0E4B9C130028</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B92A0DA2-3517-2A16-1ACC-6398A479323A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>40F59238-C7F5-F588-9026-27D1D04B77D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

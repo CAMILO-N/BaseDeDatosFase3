@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3429668F-DAA2-C3A0-474B-27D3E89929B6" name="Suscripcion">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:28:48 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSuscripcion" id="7739A561-C055-77E1-58E7-6E379DAEA8A5">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:29:16 UTC</createdTime>
+<comment><![CDATA[Identificador uinico de la suscripcion ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoPlanSuscripcion" id="4F277852-B971-8318-B9CF-43CE763C99FE">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:30:05 UTC</createdTime>
+<comment><![CDATA[Tipos de planes: Gratis y Premium]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<constraintName>CHK_tipoPlanSuscripcion</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Gratis" description=""/>
+<valueDef value="Premium" description=""/>
+</listOfValues>
+<defaultValue>Gratis</defaultValue>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaInicioSuscripcion" id="D4085BF9-A3F1-F616-CDE2-1F82390619C3">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:34:37 UTC</createdTime>
+<comment><![CDATA[fecha de inicio de suscipcion ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaFinSuscripcion" id="FB855A4B-9F74-48BC-532B-E5F4522AD94F">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:35:26 UTC</createdTime>
+<comment><![CDATA[fecha de fin de suscipcion ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoSuscipcion" id="7707EBFE-C851-A0EF-CB14-F3FA91E74732">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:36:15 UTC</createdTime>
+<comment><![CDATA[Check para estadoSuscripcion:
+'Activa', 'Cancelada', 'Vencida']]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<constraintName>CHK_estadoSuscripcion</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Activa" description=""/>
+<valueDef value="Cancelada" description=""/>
+<valueDef value="Vencida" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="E243FA7A-DD89-2DF2-B7EC-03ACE7F0AFE1">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 00:02:48 UTC</createdTime>
+<comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
+<generatorID>FD32B28D-8017-D466-8328-B8E174613B66</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<referedAttribute>36168DD3-F4E9-BAD8-5AC8-7B899D83EAA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E9CB5E8-4FA8-3A43-D260-725DF6B14DFB" name="Suscripcion PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:29:35 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7739A561-C055-77E1-58E7-6E379DAEA8A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

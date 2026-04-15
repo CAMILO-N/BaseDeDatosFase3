@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B92A0DA2-3517-2A16-1ACC-6398A479323A" name="Cancion">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:58:49 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCancion" id="20B7C25F-1C30-8A37-B0BF-6224DF2A4151">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:58:56 UTC</createdTime>
+<comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tituloCancion" id="49D46FF3-E285-6C58-1E41-C8A9CDCCABDF">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:59:20 UTC</createdTime>
+<comment><![CDATA[Nombre de la cancion]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracionCancion" id="10FD0AAF-6276-3B4D-B610-5F747660CFF2">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:00:05 UTC</createdTime>
+<comment><![CDATA[Duracion de la cancion, basado en minutos, es flotante:
+ej: 5.25. 5 minutos 25 segundos]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<constraintName>CONSTRAIN_duracionCancion</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0.10</beginValue>
+<endValue>10000000</endValue>
+<description>DuracionCancion</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="generoCancion" id="EB1DE7AD-D933-6F49-891F-76ED216CA139">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:01:47 UTC</createdTime>
+<comment><![CDATA[Generos de canciones: Pop, rock, hip'hop,electronica, clasica, jazz, latina, es obligatorio. 
+
+]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<constraintName>CHK_listaGeneroCancion</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Hip-hop / Rap" description="Centrado en el ritmo, la rima y la expresión urbana."/>
+<valueDef value="Jazz" description="Se caracteriza por la improvisación, armonías complejas y ritmos variados."/>
+<valueDef value="Música clásica" description="Composiciones formales y estructuradas, normalmente interpretadas por orquestas."/>
+<valueDef value="Música electrónica" description="Creada con instrumentos digitales, muy presente en clubes y festivales."/>
+<valueDef value="Música latina" description="Agrupa estilos originarios de América Latina como salsa, reggaetón, bachata, cumbia, entre otros."/>
+<valueDef value="Pop" description="Género comercial y masivo, enfocado en melodías simples y pegajosas."/>
+<valueDef value="Rock" description="Basado en guitarras eléctricas, batería y bajo, con una gran variedad de estilos derivados."/>
+</listOfValues>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idiomaCancion" id="E7A92F26-4946-47BD-79DA-DFB5BB6164F6">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 21:07:51 UTC</createdTime>
+<comment><![CDATA[Idioma de la cancion]]></comment>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idArtista" id="54B61A03-5239-51EC-5B2F-F0B278679547">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 23:39:23 UTC</createdTime>
+<comment><![CDATA[Identificador unico del artista, llave primaria ]]></comment>
+<generatorID>A3027EB4-2899-2919-4536-8C94748B2332</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<referedAttribute>D1282EC8-3C1D-0045-FB72-DF7787F5EA7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAlbum" id="1C8D6B24-BF4B-C7DC-F5E2-1FF86C6C74FF">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 23:48:15 UTC</createdTime>
+<comment><![CDATA[Identificador unico del album]]></comment>
+<generatorID>FF77D6CC-A7EA-52E4-17C1-000B6623D693</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F60F93A0-8515-1304-F0D9-B88732D3FD4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idReproduccion" id="880C1FA9-1DB2-E07D-D322-03F9A288AA87">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-15 02:13:10 UTC</createdTime>
+<comment><![CDATA[Identirficador unico del evento reproduccion ]]></comment>
+<generatorID>31004DE5-B73C-F233-F96F-8EC66A0C4F1C</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<referedAttribute>7B063E77-F607-A752-A450-943D05418D87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6ACA592-CB64-51E7-3015-5B29C2ECC90D" name="Cancion PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:59:06 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>20B7C25F-1C30-8A37-B0BF-6224DF2A4151</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

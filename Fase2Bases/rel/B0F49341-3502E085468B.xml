@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="B0F49341-0341-AD5F-41CE-3502E085468B" mainViewID="AA5B1EE1-0F62-4BBE-F0C1-050BF95F817E">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 20:13:28 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

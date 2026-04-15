@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UsuarioPlaylist" directorySegmentName="seg_0" id="D5213FD2-B067-F9F5-78CD-28A3C8B90B67">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-14 23:34:01 UTC</createdTime>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<sourcePk>082E2974-A7EA-1EDF-BDAE-B3B256BDF0F5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>21506271-1325-3B6C-3CF4-9F38AAA029FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>44FC2A7D-FACB-1F16-0EA3-344BFECA601B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
