@@ -55,11 +55,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Cancion_idCancion" id="C8648F13-5F3C-47EF-93CE-B57DCD0D7F52">
+<Column name="Cancion_idCancion" id="EEB60A8B-EC0D-9DF7-468B-B3311E609B72">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<createdTime>2026-04-28 17:55:52 UTC</createdTime>
 <comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
-<generatorID>E870F394-C491-1D67-4496-4DE84EFB35C7</generatorID>
+<generatorID>46B13D79-1458-3A69-18BA-F251A76A60DA</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -68,7 +68,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4FA19296-B789-2979-5F32-3B8A5ECBB216" referredColumn="449880C4-BC12-7E1D-4998-973E4ECF9C1B"/>
+<colAssociation fkAssociation="CCA468F5-CDDC-D258-F107-6D5973739723" referredColumn="449880C4-BC12-7E1D-4998-973E4ECF9C1B"/>
 </associations>
 </Column>
 </columns>
@@ -85,15 +85,15 @@
 <colUsage columnID="004DB38A-C4FB-A496-78B4-9E4184C295B9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EF0C3127-6AB6-65B6-F460-B89A35202C7A" name="Regalia_Cancion_FK">
+<ind_PK_UK id="917D651D-52EF-B937-CE67-D79A21870A20" name="Regalia_Cancion_FK">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<generatorID>3421FDAF-6CD1-E934-F205-59C85630ECD7</generatorID>
+<createdTime>2026-04-28 17:55:52 UTC</createdTime>
+<generatorID>21AF61D9-5798-AA83-62F2-0CDA2CF6A164</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C8648F13-5F3C-47EF-93CE-B57DCD0D7F52"/>
+<colUsage columnID="EEB60A8B-EC0D-9DF7-468B-B3311E609B72"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -71,7 +71,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idProductora" id="8F3302C8-24A6-0C47-5F09-59C97103C8D8">
+<Attribute name="Productora idProductora" id="8F3302C8-24A6-0C47-5F09-59C97103C8D8">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 23:50:27 UTC</createdTime>
 <comment><![CDATA[Identificador unico de la prodcutora ]]></comment>
@@ -92,8 +92,9 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:18:15 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

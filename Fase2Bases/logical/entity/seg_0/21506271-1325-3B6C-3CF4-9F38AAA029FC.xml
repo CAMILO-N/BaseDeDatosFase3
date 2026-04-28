@@ -119,21 +119,23 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:17:29 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>36168DD3-F4E9-BAD8-5AC8-7B899D83EAA7</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="E27C9067-C3BF-9D7C-BA13-826E8D9651F0" name="UN_correoUsuario">
+<identifier id="E27C9067-C3BF-9D7C-BA13-826E8D9651F0" name="Usuario_correoUsuario_UN">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:39:16 UTC</createdTime>
 <comment><![CDATA[Atributo unico por correo]]></comment>
 <ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
 </engineerTo>
 <newElementsIDs>7C81FEB2-0107-D276-33C9-0F67FF5E5FE4</newElementsIDs>
 <usedAttributes>

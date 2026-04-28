@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8369084-09C0-CC53-193F-2E19D19612A7" name="Pago">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5FE240C-D787-D689-0E7C-DB86A05684D8" name="Pago">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-14 21:43:23 UTC</createdTime>
+<createdTime>2026-04-28 16:51:25 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idPago" id="09710D3C-C0F6-A80D-0F91-45D9E4AE3DD9">
+<Attribute name="idPago" id="15971C83-EBDE-FDD4-D549-4686DB170B2C">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-14 21:43:29 UTC</createdTime>
-<comment><![CDATA[Identificador unico de pago ]]></comment>
+<createdTime>2026-04-28 16:51:33 UTC</createdTime>
+<comment><![CDATA[Indentificador principal de pago ]]></comment>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -28,10 +28,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fechaPago" id="86F8C3E0-98DF-BAF6-3236-C2A0CC8F79AB">
+<Attribute name="fechaPago" id="9AE97B25-002E-531A-02A5-AB803F0A7458">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-14 21:43:45 UTC</createdTime>
-<comment><![CDATA[fecha de pago realizado]]></comment>
+<createdTime>2026-04-28 16:51:50 UTC</createdTime>
+<comment><![CDATA[fecha en la que se realiza el pago ]]></comment>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -41,24 +41,26 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="montoPago" id="BCC1EA76-64DD-5F7B-37FA-6B9C37F60966">
+<Attribute name="montoPago" id="EA764EDC-1F42-2CC8-B6BE-74FCDDC7F846">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-14 21:44:10 UTC</createdTime>
-<comment><![CDATA[monto de pago]]></comment>
+<createdTime>2026-04-28 16:52:02 UTC</createdTime>
+<comment><![CDATA[VALOR DE PAGO ]]></comment>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idSuscripcion" id="D5C9101E-761A-9744-5367-05BFCCDC43A3">
+<Attribute name="Suscripcion idSuscripcion" id="68AD8649-A1A1-6AE8-1DDC-FEFC70554324">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:48:22 UTC</createdTime>
+<createdTime>2026-04-28 16:54:33 UTC</createdTime>
 <comment><![CDATA[Identificador uinico de la suscripcion ]]></comment>
-<generatorID>C0036D15-6149-FE1A-062B-DD7B088102DC</generatorID>
+<generatorID>356FE2F4-7C20-2947-ECB0-E1AB33FFF238</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -71,9 +73,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EDFEC935-F7B0-8856-3403-5E77B483CCA3" name="Pago PK">
+<identifier id="DD1E1A93-E8DE-482B-1416-B29FA40127C5" name="Pago_PK">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-14 21:43:38 UTC</createdTime>
+<createdTime>2026-04-28 16:51:39 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -81,7 +83,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>09710D3C-C0F6-A80D-0F91-45D9E4AE3DD9</attributeRef>
+<attributeRef>15971C83-EBDE-FDD4-D549-4686DB170B2C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

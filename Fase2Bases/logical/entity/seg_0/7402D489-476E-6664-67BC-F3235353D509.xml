@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9394D10-9EEE-2365-3990-ACA513C883CE" name="Genero">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7402D489-476E-6664-67BC-F3235353D509" name="Genero">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:30:53 UTC</createdTime>
+<createdTime>2026-04-28 16:39:37 UTC</createdTime>
+<generatorID>1E5A1CA7-A459-0175-80C2-8911E17D19F0</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -15,10 +16,11 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idGenero" id="AF4596F8-D312-35A0-06E7-F84A261108BF">
+<Attribute name="idGenero" id="CBBFEB48-C805-2153-6D13-738F1C3365BA">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:31:06 UTC</createdTime>
+<createdTime>2026-04-28 16:39:37 UTC</createdTime>
 <comment><![CDATA[Identificador unico del genero]]></comment>
+<generatorID>DD7D0710-99A0-C1F8-68EF-BC17D74ECF33</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -28,10 +30,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombreGenero" id="47C02FE4-42FF-B1F4-0F17-B1C1E6300036">
+<Attribute name="nombreGenero" id="595288C7-6355-F911-4C7C-264233764C87">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:31:10 UTC</createdTime>
+<createdTime>2026-04-28 16:39:37 UTC</createdTime>
 <comment><![CDATA[Nombre del genero ]]></comment>
+<generatorID>B861B35F-78EE-2313-034A-2D26005D9C25</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -44,26 +47,32 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0D17D941-4E7E-C7F2-9E92-767B12E3113F" name="Genero PK">
+<identifier id="E4E1EB0A-7311-0017-CEDF-5731A2965ABA" name="Genero PK">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:31:15 UTC</createdTime>
+<createdTime>2026-04-28 16:39:37 UTC</createdTime>
+<generatorID>7BC676F2-AAF4-938A-F687-48E29D74AF8D</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>AF4596F8-D312-35A0-06E7-F84A261108BF</attributeRef>
+<attributeRef>CBBFEB48-C805-2153-6D13-738F1C3365BA</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="8CFE42CF-5783-A5A7-85D7-5552005C4E63" name="UN_nombreGenero">
+<identifier id="9F2CE6F7-F749-285A-6476-7D38DEFE1A7A" name="Genero nombreGenero UN">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:31:38 UTC</createdTime>
+<createdTime>2026-04-28 16:39:37 UTC</createdTime>
+<generatorID>DD30957B-76EF-D9C6-B05E-2C4197EE6978</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
 </engineerTo>
-<newElementsIDs>47C02FE4-42FF-B1F4-0F17-B1C1E6300036</newElementsIDs>
+<usedAttributes>
+<attributeRef>595288C7-6355-F911-4C7C-264233764C87</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

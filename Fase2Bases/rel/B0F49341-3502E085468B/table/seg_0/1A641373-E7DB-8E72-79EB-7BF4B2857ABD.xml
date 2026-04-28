@@ -35,20 +35,6 @@
 <colAssociation fkAssociation="14F63C92-C9A1-DEA3-778B-8C434AC5AAEA" referredColumn="96117A31-6FCF-8904-434A-4156F243F173"/>
 </associations>
 </Column>
-<Column name="Playlist_idUsuario" id="4D387183-2899-4887-D630-2E53880D8466">
-<createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="14F63C92-C9A1-DEA3-778B-8C434AC5AAEA" referredColumn="1D40B044-B9F4-623B-EC19-AB83F3C1EC81"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="34BE726E-50A0-0B57-B8B3-FD5022FF59B6" name="CancionPlaylist_PK">
@@ -61,7 +47,6 @@
 <indexColumnUsage>
 <colUsage columnID="084CB149-9D9B-8A0A-20FE-4C188A0F568B"/>
 <colUsage columnID="91712A31-0738-B8FA-FEE0-FE1878311A19"/>
-<colUsage columnID="4D387183-2899-4887-D630-2E53880D8466"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="53486077-B5DE-FCED-FBCF-F332434232CD" name="CancionPlaylist_Cancion_FK">
@@ -84,7 +69,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="91712A31-0738-B8FA-FEE0-FE1878311A19"/>
-<colUsage columnID="4D387183-2899-4887-D630-2E53880D8466"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

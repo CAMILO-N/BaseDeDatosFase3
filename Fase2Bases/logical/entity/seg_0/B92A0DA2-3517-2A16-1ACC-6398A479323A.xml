@@ -78,11 +78,26 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idAlbum" id="1C8D6B24-BF4B-C7DC-F5E2-1FF86C6C74FF">
+<Attribute name="Genero idGenero" id="0B2FC8B1-8BD6-8C5D-5C95-7CD27C503D5B">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-14 23:48:15 UTC</createdTime>
+<createdTime>2026-04-28 16:42:43 UTC</createdTime>
+<comment><![CDATA[Identificador unico del genero]]></comment>
+<generatorID>4A941082-75D2-9A03-8A44-3DC7D4CC5DFF</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+</engineerTo>
+<referedAttribute>CBBFEB48-C805-2153-6D13-738F1C3365BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Album idAlbum" id="550F9A26-5440-E68D-3D9E-59AB590FF149">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 17:15:24 UTC</createdTime>
 <comment><![CDATA[Identificador unico del album]]></comment>
-<generatorID>FF77D6CC-A7EA-52E4-17C1-000B6623D693</generatorID>
+<generatorID>D9D5894D-F8EA-E20C-5D51-7AC6A4EEC7B3</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -94,27 +109,15 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idGenero" id="57042B9F-48B5-4D2F-7BB5-449AE3C25B7D">
-<createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:46:32 UTC</createdTime>
-<generatorID>B6F1A2D4-1752-B6BA-01F0-0336619C275B</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
-<engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
-</engineerTo>
-<referedAttribute>AF4596F8-D312-35A0-06E7-F84A261108BF</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E6ACA592-CB64-51E7-3015-5B29C2ECC90D" name="Cancion PK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:59:06 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

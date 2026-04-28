@@ -54,7 +54,7 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idUsuario" id="C38BB8D9-FFE5-8A78-D71F-8A20CA5D2C16">
+<Attribute name="Usuario idUsuario" id="C38BB8D9-FFE5-8A78-D71F-8A20CA5D2C16">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 02:08:30 UTC</createdTime>
 <comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
@@ -69,11 +69,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idCancion" id="D22777CE-DE1A-601D-8DBA-748192B077CA">
+<Attribute name="idCancion" id="DCC200EC-B56E-9635-6EA0-95974460C2A5">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:04:58 UTC</createdTime>
+<createdTime>2026-04-28 17:52:33 UTC</createdTime>
 <comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
-<generatorID>31004DE5-B73C-F233-F96F-8EC66A0C4F1C</generatorID>
+<generatorID>6B30B5FE-67B5-23EA-D11B-4762137B1C21</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -90,8 +90,9 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:55:17 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

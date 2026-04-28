@@ -78,11 +78,11 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Usuario_idUsuario" id="1D40B044-B9F4-623B-EC19-AB83F3C1EC81">
+<Column name="Usuario_idUsuario" id="C27C11C8-1D0F-AD7A-2162-7D5EA779B13F">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<createdTime>2026-04-28 16:07:43 UTC</createdTime>
 <comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
-<generatorID>813B9FFC-5130-BB88-30DD-3A9080FD7B41</generatorID>
+<generatorID>B50145B3-ED2E-4B66-0A49-C3E52124C4BC</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -91,7 +91,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5209E777-8C12-B998-8D77-8A38B4F16FA8" referredColumn="A9BCD9CC-774C-C44B-C695-C9702681AFB8"/>
+<colAssociation fkAssociation="D060A6C3-5BA7-5A28-0096-E7B174E3A229" referredColumn="A9BCD9CC-774C-C44B-C695-C9702681AFB8"/>
 </associations>
 </Column>
 </columns>
@@ -106,18 +106,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="96117A31-6FCF-8904-434A-4156F243F173"/>
-<colUsage columnID="1D40B044-B9F4-623B-EC19-AB83F3C1EC81"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2E51DBC2-1CEE-5E28-8614-4EE534428F78" name="Playlist_Usuario_FK">
+<ind_PK_UK id="EBF610BE-85A6-5708-2C36-7A81EBE7252A" name="Playlist_Usuario_FK">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<generatorID>D5213FD2-B067-F9F5-78CD-28A3C8B90B67</generatorID>
+<createdTime>2026-04-28 16:07:43 UTC</createdTime>
+<generatorID>3E9F14F6-8E1D-DAB5-83FB-91E10E4DAADF</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1D40B044-B9F4-623B-EC19-AB83F3C1EC81"/>
+<colUsage columnID="C27C11C8-1D0F-AD7A-2162-7D5EA779B13F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A20C12D2-3AFD-EAC5-003A-D19945728994" name="Pago">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 16:55:24 UTC</createdTime>
+<generatorID>B5FE240C-D787-D689-0E7C-DB86A05684D8</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<ordsAlias>pagov1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPago" id="456A9900-FB8A-75A8-7934-C99D8DD5E37E">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 16:55:24 UTC</createdTime>
+<comment><![CDATA[Indentificador principal de pago ]]></comment>
+<generatorID>15971C83-EBDE-FDD4-D549-4686DB170B2C</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaPago" id="203E63B1-0E7F-F699-6B91-CB57B77D18DD">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 16:55:24 UTC</createdTime>
+<comment><![CDATA[fecha en la que se realiza el pago ]]></comment>
+<generatorID>9AE97B25-002E-531A-02A5-AB803F0A7458</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="montoPago" id="AF0E912A-705C-4D25-DB5B-429191A49D91">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 16:55:24 UTC</createdTime>
+<comment><![CDATA[VALOR DE PAGO ]]></comment>
+<generatorID>EA764EDC-1F42-2CC8-B6BE-74FCDDC7F846</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Suscripcion_idSuscripcion" id="93EE0D64-B698-C3A6-1311-E3D4CC25309D">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 16:55:24 UTC</createdTime>
+<comment><![CDATA[Identificador uinico de la suscripcion ]]></comment>
+<generatorID>68AD8649-A1A1-6AE8-1DDC-FEFC70554324</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEFD816E-7B36-E5A8-0946-CBF823F83246" referredColumn="3144248B-9E81-1F42-2E4C-370E9FF87278"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E9B7F2D-98E2-284A-3821-55C67970D9F4" name="Pago_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 16:55:24 UTC</createdTime>
+<generatorID>DD1E1A93-E8DE-482B-1416-B29FA40127C5</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="456A9900-FB8A-75A8-7934-C99D8DD5E37E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5767BC5-7E8D-047E-8175-5EEB280448FB" name="Pago_Suscripcion_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 16:55:24 UTC</createdTime>
+<generatorID>356FE2F4-7C20-2947-ECB0-E1AB33FFF238</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93EE0D64-B698-C3A6-1311-E3D4CC25309D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

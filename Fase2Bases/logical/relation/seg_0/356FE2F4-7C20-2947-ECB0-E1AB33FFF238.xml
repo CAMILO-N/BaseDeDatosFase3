@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RegaliaCancion" directorySegmentName="seg_0" id="3421FDAF-6CD1-E934-F205-59C85630ECD7">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pago Suscripcion FK" directorySegmentName="seg_0" id="356FE2F4-7C20-2947-ECB0-E1AB33FFF238">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 03:32:58 UTC</createdTime>
+<createdTime>2026-04-28 16:54:33 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
-<sourcePk>E6ACA592-CB64-51E7-3015-5B29C2ECC90D</sourcePk>
+<sourcePk>2E9CB5E8-4FA8-3A43-D260-725DF6B14DFB</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>B92A0DA2-3517-2A16-1ACC-6398A479323A</sourceEntity>
+<sourceEntity>3429668F-DAA2-C3A0-474B-27D3E89929B6</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>9AB69FEF-5E0D-1A91-94BF-48909CFC3C67</targetEntity>
+<targetEntity>B5FE240C-D787-D689-0E7C-DB86A05684D8</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

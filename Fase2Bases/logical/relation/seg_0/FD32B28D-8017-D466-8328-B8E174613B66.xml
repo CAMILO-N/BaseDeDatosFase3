@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="FD32B28D-8017-D466-8328-B8E174613B66">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Suscripcion Usuario FK" directorySegmentName="seg_0" id="FD32B28D-8017-D466-8328-B8E174613B66">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 00:02:48 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
@@ -12,7 +12,7 @@
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>21506271-1325-3B6C-3CF4-9F38AAA029FC</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>3429668F-DAA2-C3A0-474B-27D3E89929B6</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

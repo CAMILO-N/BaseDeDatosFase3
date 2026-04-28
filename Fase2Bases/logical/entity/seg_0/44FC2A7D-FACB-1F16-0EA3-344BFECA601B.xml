@@ -90,11 +90,11 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idUsuario" id="813B9FFC-5130-BB88-30DD-3A9080FD7B41">
+<Attribute name="Usuario idUsuario" id="B50145B3-ED2E-4B66-0A49-C3E52124C4BC">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-14 23:34:01 UTC</createdTime>
+<createdTime>2026-04-28 16:06:53 UTC</createdTime>
 <comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
-<generatorID>D5213FD2-B067-F9F5-78CD-28A3C8B90B67</generatorID>
+<generatorID>3E9F14F6-8E1D-DAB5-83FB-91E10E4DAADF</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
@@ -111,13 +111,13 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:48:32 UTC</createdTime>
 <ownerDesignName>Fase2Bases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>8F9F2C23-C584-722A-5E3C-A62DAE84CEE8</attributeRef>
-<attributeRef>813B9FFC-5130-BB88-30DD-3A9080FD7B41</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

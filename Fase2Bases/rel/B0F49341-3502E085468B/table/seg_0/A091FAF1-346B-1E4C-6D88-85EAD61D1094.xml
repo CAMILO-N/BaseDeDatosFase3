@@ -67,11 +67,27 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Album_idAlbum" id="333E2B1F-453B-090C-48CB-202E9782D9C6">
+<Column name="Genero_idGenero" id="FC60B0BE-3F1D-F95B-2ED3-060AE32221F3">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<createdTime>2026-04-28 16:43:54 UTC</createdTime>
+<comment><![CDATA[Identificador unico del genero]]></comment>
+<generatorID>0B2FC8B1-8BD6-8C5D-5C95-7CD27C503D5B</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B29FCB15-3A91-2701-F177-DC204282A808" referredColumn="DD7D0710-99A0-C1F8-68EF-BC17D74ECF33"/>
+</associations>
+</Column>
+<Column name="Album_idAlbum" id="6638393B-02A6-B310-CF7A-AE36FB3CB9DC">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 17:22:07 UTC</createdTime>
 <comment><![CDATA[Identificador unico del album]]></comment>
-<generatorID>1C8D6B24-BF4B-C7DC-F5E2-1FF86C6C74FF</generatorID>
+<generatorID>550F9A26-5440-E68D-3D9E-59AB590FF149</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,34 +97,8 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7A0044E1-3985-B84E-7286-5372197050B0" referredColumn="E291A3E0-495A-AA36-E960-BAAC4B231832"/>
+<colAssociation fkAssociation="F72B694A-1691-9B63-C0D8-8BBCA16A9901" referredColumn="E291A3E0-495A-AA36-E960-BAAC4B231832"/>
 </associations>
-</Column>
-<Column name="Genero_idGenero" id="036951D5-3EB3-85A4-1D6F-319A170A7F26">
-<createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<generatorID>B271B2E8-4675-3A98-3318-D154CDEB73C4</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E442185A-F13C-3A81-1165-4E13B8ACE97E" referredColumn="DD7D0710-99A0-C1F8-68EF-BC17D74ECF33"/>
-</associations>
-</Column>
-<Column name="idGenero" id="E9A35ED9-4AEB-D615-7BB1-75182BD5AEBA">
-<createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:47:41 UTC</createdTime>
-<generatorID>57042B9F-48B5-4D2F-7BB5-449AE3C25B7D</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -124,26 +114,26 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <colUsage columnID="449880C4-BC12-7E1D-4998-973E4ECF9C1B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E622DBD9-74A0-1E9D-CBA8-6B36014224CE" name="Cancion_Album_FK">
+<ind_PK_UK id="92FE0693-5B75-3747-138F-054D9C3CCCD9" name="Cancion_Genero_FK">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<generatorID>FF77D6CC-A7EA-52E4-17C1-000B6623D693</generatorID>
+<createdTime>2026-04-28 16:43:54 UTC</createdTime>
+<generatorID>4A941082-75D2-9A03-8A44-3DC7D4CC5DFF</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="333E2B1F-453B-090C-48CB-202E9782D9C6"/>
+<colUsage columnID="FC60B0BE-3F1D-F95B-2ED3-060AE32221F3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="93C200B2-5716-B2CE-4C05-39A03C899031" name="Cancion_Genero_FK">
+<ind_PK_UK id="4ACF2F48-432D-7A5A-1968-08CCF1C0DE6D" name="Cancion_Album_FK">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<generatorID>B6F1A2D4-1752-B6BA-01F0-0336619C275B</generatorID>
+<createdTime>2026-04-28 17:22:07 UTC</createdTime>
+<generatorID>D9D5894D-F8EA-E20C-5D51-7AC6A4EEC7B3</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="036951D5-3EB3-85A4-1D6F-319A170A7F26"/>
+<colUsage columnID="6638393B-02A6-B310-CF7A-AE36FB3CB9DC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

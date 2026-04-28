@@ -85,11 +85,11 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Usuario_idUsuario" id="9C2330FE-3628-6C2E-560A-B93B77CB9ABA">
+<Column name="Usuario_idUsuario" id="A73D5918-4E9B-1E6A-A295-4CF305401222">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<createdTime>2026-04-28 15:39:08 UTC</createdTime>
 <comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
-<generatorID>E243FA7A-DD89-2DF2-B7EC-03ACE7F0AFE1</generatorID>
+<generatorID>1964DBE8-88C7-0F95-F14C-85E85EEAB850</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -98,7 +98,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="357E378C-DFC5-48C8-7D00-0A5055D707DA" referredColumn="A9BCD9CC-774C-C44B-C695-C9702681AFB8"/>
+<colAssociation fkAssociation="818A95C1-CE0E-0BB2-AEA9-DCA0C18B21FC" referredColumn="A9BCD9CC-774C-C44B-C695-C9702681AFB8"/>
 </associations>
 </Column>
 </columns>
@@ -115,26 +115,15 @@
 <colUsage columnID="3144248B-9E81-1F42-2E4C-370E9FF87278"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E51AE5CE-AD63-4093-0373-038B4B3BB1BB" name="Suscripcion__IDX">
+<ind_PK_UK id="4EACE976-B862-B377-2103-D41579DE239A" name="Suscripcion_Usuario_FK">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>FD32B28D-8017-D466-8328-B8E174613B66</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="9C2330FE-3628-6C2E-560A-B93B77CB9ABA"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E2140D3C-A861-F74B-A628-7D59E6002727" name="Suscripcion_Usuario_FK">
-<createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<createdTime>2026-04-28 15:39:08 UTC</createdTime>
 <generatorID>FD32B28D-8017-D466-8328-B8E174613B66</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9C2330FE-3628-6C2E-560A-B93B77CB9ABA"/>
+<colUsage columnID="A73D5918-4E9B-1E6A-A295-4CF305401222"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

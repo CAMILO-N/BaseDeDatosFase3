@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C03C4C26-751C-1028-5332-D3167FC3CED9" containerWithKeyObject="9E383EF0-EA59-18B1-8204-D601DC6371ED" localFKIndex="BF831E68-B24C-F45B-A3D4-D450373DFC41" name="Pago_Suscripcion_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEFD816E-7B36-E5A8-0946-CBF823F83246" containerWithKeyObject="A20C12D2-3AFD-EAC5-003A-D19945728994" localFKIndex="E5767BC5-7E8D-047E-8175-5EEB280448FB" name="Pago_Suscripcion_FK">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<generatorID>C0036D15-6149-FE1A-062B-DD7B088102DC</generatorID>
+<createdTime>2026-04-28 16:55:24 UTC</createdTime>
+<generatorID>356FE2F4-7C20-2947-ECB0-E1AB33FFF238</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <referredTableLongName>Suscripcion</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

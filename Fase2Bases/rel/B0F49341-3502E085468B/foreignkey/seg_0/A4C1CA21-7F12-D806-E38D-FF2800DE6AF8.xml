@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FA19296-B789-2979-5F32-3B8A5ECBB216" containerWithKeyObject="144E14D5-6192-BF3F-C4B8-605A110E25C5" localFKIndex="EF0C3127-6AB6-65B6-F460-B89A35202C7A" name="Regalia_Cancion_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4C1CA21-7F12-D806-E38D-FF2800DE6AF8" containerWithKeyObject="070A24BD-0A45-C6A8-756B-EE0A5425A5D1" localFKIndex="3CD32E03-0137-0290-2934-7749432CDC68" name="Reproduccion_Cancion_FK">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<generatorID>3421FDAF-6CD1-E934-F205-59C85630ECD7</generatorID>
+<createdTime>2026-04-28 17:55:52 UTC</createdTime>
+<generatorID>6B30B5FE-67B5-23EA-D11B-4762137B1C21</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <referredTableLongName>Cancion</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

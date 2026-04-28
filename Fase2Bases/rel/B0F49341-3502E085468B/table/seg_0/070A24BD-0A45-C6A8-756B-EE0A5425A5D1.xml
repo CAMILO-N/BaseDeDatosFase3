@@ -60,11 +60,11 @@
 <colAssociation fkAssociation="F4338483-30EE-18A6-45A7-4DE364259635" referredColumn="A9BCD9CC-774C-C44B-C695-C9702681AFB8"/>
 </associations>
 </Column>
-<Column name="Cancion_idCancion" id="9347AB93-EB34-66FE-87EC-E47B2219E05B">
+<Column name="Cancion_idCancion" id="94C98F74-B355-0E5A-EAD4-DEDE3C62C761">
 <createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
+<createdTime>2026-04-28 17:55:52 UTC</createdTime>
 <comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
-<generatorID>D22777CE-DE1A-601D-8DBA-748192B077CA</generatorID>
+<generatorID>DCC200EC-B56E-9635-6EA0-95974460C2A5</generatorID>
 <ownerDesignName>Fase2Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,34 +73,11 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D753B1DA-0EE9-254F-27A7-1EA277832A3A" referredColumn="449880C4-BC12-7E1D-4998-973E4ECF9C1B"/>
+<colAssociation fkAssociation="A4C1CA21-7F12-D806-E38D-FF2800DE6AF8" referredColumn="449880C4-BC12-7E1D-4998-973E4ECF9C1B"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="68C5D1AB-825E-D50C-6168-30CC243D7500" name="Reproduccion_PK">
-<createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<generatorID>5B3A797B-96BF-A381-53E8-A118C2CD203F</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C1E706E7-7909-531B-8AA2-1CB0470D5DC5"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="57894467-5C37-551A-03B9-717A911C393B" name="Reproduccion_Cancion_FK">
-<createdBy>CAMOL</createdBy>
-<createdTime>2026-04-15 04:37:11 UTC</createdTime>
-<generatorID>31004DE5-B73C-F233-F96F-8EC66A0C4F1C</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9347AB93-EB34-66FE-87EC-E47B2219E05B"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="14C8A36B-E903-F2FD-F809-B9C16735616C" name="Reproduccion_Usuario_FK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
@@ -110,6 +87,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C0869991-23D9-F7A7-C644-0322ABAD0E79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CD32E03-0137-0290-2934-7749432CDC68" name="Reproduccion_Cancion_FK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 17:55:52 UTC</createdTime>
+<generatorID>6B30B5FE-67B5-23EA-D11B-4762137B1C21</generatorID>
+<ownerDesignName>Fase2Bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C98F74-B355-0E5A-EAD4-DEDE3C62C761"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
