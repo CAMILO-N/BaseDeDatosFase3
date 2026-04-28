@@ -1559,5 +1559,4 @@ GO
    SECCION 9 - PRUEBAS
    Objetivo:
    Validar procedimientos, funciones, triggers, reportes y reglas.
-   ============================================================ */
-
+   ============================================================* */
