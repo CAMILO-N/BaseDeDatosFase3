@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B73652DF-0DC1-90B1-4A90-E9BCAD291067" name="Productora">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:24:40 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:24:45 UTC</createdTime>
 <comment><![CDATA[Identificador unico de la prodcutora ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:25:10 UTC</createdTime>
 <comment><![CDATA[Nombre de la prodcutora, este no puede ser nulo ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -46,7 +46,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:25:57 UTC</createdTime>
 <comment><![CDATA[Pais de origen de la productora ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -60,7 +60,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:26:44 UTC</createdTime>
 <comment><![CDATA[Correo asociado a la prodcutora no puede ser nulo ni repetirse ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -75,7 +75,7 @@
 <identifier id="602D7EE3-52D8-068A-EA25-B49E5B037774" name="Productora PK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:24:54 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
@@ -88,7 +88,7 @@
 <identifier id="268A1FF8-20F3-583B-E248-316DF7B19C32" name="Productora_correoProductora_UN">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:27:29 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>

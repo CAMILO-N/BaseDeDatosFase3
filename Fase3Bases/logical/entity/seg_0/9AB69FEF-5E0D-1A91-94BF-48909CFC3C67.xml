@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AB69FEF-5E0D-1A91-94BF-48909CFC3C67" name="Regalia">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:46:41 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:46:47 UTC</createdTime>
 <comment><![CDATA[Identificador unico de regalia ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:47:14 UTC</createdTime>
 <comment><![CDATA[Numero de veces que sea ha reproducido la cancion ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -45,19 +45,21 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:47:48 UTC</createdTime>
 <comment><![CDATA[Pago a ser generado]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fechaCalculoRegalia" id="F825C45C-1715-2746-4124-A984CE67323B">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:50:37 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -66,12 +68,12 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idCancion" id="46B13D79-1458-3A69-18BA-F251A76A60DA">
+<Attribute name="Cancion idCancion" id="46B13D79-1458-3A69-18BA-F251A76A60DA">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 17:54:30 UTC</createdTime>
 <comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
 <generatorID>21AF61D9-5798-AA83-62F2-0CDA2CF6A164</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -86,7 +88,7 @@
 <identifier id="29AC4FB2-966B-2E52-E7B4-1C6ED0F8E17E" name="Regalia PK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:46:56 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>

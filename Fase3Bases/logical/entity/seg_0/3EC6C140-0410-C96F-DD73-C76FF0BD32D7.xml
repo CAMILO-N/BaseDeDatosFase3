@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EC6C140-0410-C96F-DD73-C76FF0BD32D7" name="Artista">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:18:01 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:18:06 UTC</createdTime>
 <comment><![CDATA[Identificador unico del artista, llave primaria ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:18:31 UTC</createdTime>
 <comment><![CDATA[Nombre del artista / banda ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -46,7 +46,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:21:44 UTC</createdTime>
 <comment><![CDATA[Pais del artista]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -60,7 +60,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:23:00 UTC</createdTime>
 <comment><![CDATA[Detalles o descripcion de los artistas]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -76,7 +76,7 @@
 <createdTime>2026-04-14 23:50:27 UTC</createdTime>
 <comment><![CDATA[Identificador unico de la prodcutora ]]></comment>
 <generatorID>C1224B9C-7F6A-E1DB-E83D-13948AC1D005</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -91,7 +91,7 @@
 <identifier id="4DBDD5C7-45CF-E5E5-0CDF-A8B0F20EFBD6" name="Artista PK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:18:15 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>

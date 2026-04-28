@@ -3,7 +3,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <generatorID>C2815FDD-7B65-2586-D8E0-B1E664062CBC</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -13,7 +13,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Identirficador unico del evento reproduccion ]]></comment>
 <generatorID>7B063E77-F607-A752-A450-943D05418D87</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,7 +25,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[fecha de reproduccion ]]></comment>
 <generatorID>36F17AC4-A746-AE3C-EA65-8229F0A4825F</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -37,7 +37,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Duraciion de la reproduccion no puede ser menor a 0 o null]]></comment>
 <generatorID>15BBF84A-EDCC-1956-2CAE-FBF162F91B8B</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -49,7 +49,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
 <generatorID>C38BB8D9-FFE5-8A78-D71F-8A20CA5D2C16</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -65,7 +65,7 @@
 <createdTime>2026-04-28 17:55:52 UTC</createdTime>
 <comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
 <generatorID>DCC200EC-B56E-9635-6EA0-95974460C2A5</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -78,11 +78,22 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F03F9B27-C4C7-777B-9E84-A1828FE3896F" name="Reproduccion_PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 19:44:33 UTC</createdTime>
+<ownerDesignName>Fase3Bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1E706E7-7909-531B-8AA2-1CB0470D5DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="14C8A36B-E903-F2FD-F809-B9C16735616C" name="Reproduccion_Usuario_FK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <generatorID>647E3C33-3751-BEDA-C75D-488A8947B721</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -93,7 +104,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 17:55:52 UTC</createdTime>
 <generatorID>6B30B5FE-67B5-23EA-D11B-4762137B1C21</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

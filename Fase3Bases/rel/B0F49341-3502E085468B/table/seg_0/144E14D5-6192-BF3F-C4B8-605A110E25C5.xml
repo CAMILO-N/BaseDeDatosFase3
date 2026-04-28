@@ -3,7 +3,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <generatorID>9AB69FEF-5E0D-1A91-94BF-48909CFC3C67</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -13,7 +13,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Identificador unico de regalia ]]></comment>
 <generatorID>018A4516-E479-826B-330E-E973C141DDFA</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,7 +25,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Numero de veces que sea ha reproducido la cancion ]]></comment>
 <generatorID>AD15FE9A-32FA-FE81-3A6C-0A642A5A6886</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -37,18 +37,20 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Pago a ser generado]]></comment>
 <generatorID>5C00DC26-DD8B-F8F6-FA0B-6488D9C41D67</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="fechaCalculoRegalia" id="89336A0B-AF48-4C19-5B90-5FD21EFC2209">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <generatorID>F825C45C-1715-2746-4124-A984CE67323B</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -60,7 +62,7 @@
 <createdTime>2026-04-28 17:55:52 UTC</createdTime>
 <comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
 <generatorID>46B13D79-1458-3A69-18BA-F251A76A60DA</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -77,7 +79,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <generatorID>29AC4FB2-966B-2E52-E7B4-1C6ED0F8E17E</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -89,7 +91,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 17:55:52 UTC</createdTime>
 <generatorID>21AF61D9-5798-AA83-62F2-0CDA2CF6A164</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

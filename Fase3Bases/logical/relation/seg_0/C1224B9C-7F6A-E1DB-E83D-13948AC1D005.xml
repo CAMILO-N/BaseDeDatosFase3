@@ -2,7 +2,7 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Artista Productora FK" directorySegmentName="seg_0" id="C1224B9C-7F6A-E1DB-E83D-13948AC1D005">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 23:50:27 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>

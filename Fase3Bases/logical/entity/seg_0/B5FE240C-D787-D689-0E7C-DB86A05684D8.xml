@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5FE240C-D787-D689-0E7C-DB86A05684D8" name="Pago">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 16:51:25 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 16:51:33 UTC</createdTime>
 <comment><![CDATA[Indentificador principal de pago ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 16:51:50 UTC</createdTime>
 <comment><![CDATA[fecha en la que se realiza el pago ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -45,7 +45,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 16:52:02 UTC</createdTime>
 <comment><![CDATA[VALOR DE PAGO ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -61,7 +61,7 @@
 <createdTime>2026-04-28 16:54:33 UTC</createdTime>
 <comment><![CDATA[Identificador uinico de la suscripcion ]]></comment>
 <generatorID>356FE2F4-7C20-2947-ECB0-E1AB33FFF238</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -76,7 +76,7 @@
 <identifier id="DD1E1A93-E8DE-482B-1416-B29FA40127C5" name="Pago_PK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 16:51:39 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>

@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21506271-1325-3B6C-3CF4-9F38AAA029FC" name="Usuario">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:15:35 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:15:59 UTC</createdTime>
 <comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:19:56 UTC</createdTime>
 <comment><![CDATA[Nombre primario del usuario no puede ser null.  ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -46,7 +46,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:25:05 UTC</createdTime>
 <comment><![CDATA[apellid primario del usuario no puede ser null.  ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -60,7 +60,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:25:56 UTC</createdTime>
 <comment><![CDATA[Nombre adicional del usuario peude ser nulo. ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -75,7 +75,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:26:36 UTC</createdTime>
 <comment><![CDATA[Segundo apellido del usuario puede ser opcional]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -90,7 +90,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:27:54 UTC</createdTime>
 <comment><![CDATA[correo necesario para iniciar sesion, no puede ser nulo ni repertirse]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -104,7 +104,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:44:10 UTC</createdTime>
 <comment><![CDATA[Fecha en la que se inscribe el usuario]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -118,7 +118,7 @@
 <identifier id="082E2974-A7EA-1EDF-BDAE-B3B256BDF0F5" name="Usuario PK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:17:29 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
@@ -132,7 +132,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 20:39:16 UTC</createdTime>
 <comment><![CDATA[Atributo unico por correo]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>

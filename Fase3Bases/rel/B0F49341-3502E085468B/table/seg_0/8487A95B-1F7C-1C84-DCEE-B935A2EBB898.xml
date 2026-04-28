@@ -3,7 +3,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <generatorID>3429668F-DAA2-C3A0-474B-27D3E89929B6</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -13,7 +13,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Identificador uinico de la suscripcion ]]></comment>
 <generatorID>7739A561-C055-77E1-58E7-6E379DAEA8A5</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,7 +25,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Tipos de planes: Gratis y Premium]]></comment>
 <generatorID>4F277852-B971-8318-B9CF-43CE763C99FE</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <constraintName>CHK_tipoPlanSuscripcion</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +44,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[fecha de inicio de suscipcion ]]></comment>
 <generatorID>D4085BF9-A3F1-F616-CDE2-1F82390619C3</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -56,7 +56,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[fecha de fin de suscipcion ]]></comment>
 <generatorID>FB855A4B-9F74-48BC-532B-E5F4522AD94F</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -64,13 +64,13 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="estadoSuscipcion" id="0381A65D-D77E-87A9-5403-EF6A2D881413">
+<Column name="estadoSuscripcion" id="0381A65D-D77E-87A9-5403-EF6A2D881413">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Check para estadoSuscripcion:
 'Activa', 'Cancelada', 'Vencida']]></comment>
 <generatorID>7707EBFE-C851-A0EF-CB14-F3FA91E74732</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <constraintName>CHK_estadoSuscripcion</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -90,7 +90,7 @@
 <createdTime>2026-04-28 15:39:08 UTC</createdTime>
 <comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
 <generatorID>1964DBE8-88C7-0F95-F14C-85E85EEAB850</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -107,7 +107,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <generatorID>2E9CB5E8-4FA8-3A43-D260-725DF6B14DFB</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -119,7 +119,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 15:39:08 UTC</createdTime>
 <generatorID>FD32B28D-8017-D466-8328-B8E174613B66</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

@@ -2,7 +2,7 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Suscripcion Usuario FK" directorySegmentName="seg_0" id="FD32B28D-8017-D466-8328-B8E174613B66">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 00:02:48 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>

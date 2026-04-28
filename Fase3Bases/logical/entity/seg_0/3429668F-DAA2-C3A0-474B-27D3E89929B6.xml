@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3429668F-DAA2-C3A0-474B-27D3E89929B6" name="Suscripcion">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:28:48 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:29:16 UTC</createdTime>
 <comment><![CDATA[Identificador uinico de la suscripcion ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:30:05 UTC</createdTime>
 <comment><![CDATA[Tipos de planes: Gratis y Premium]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -52,7 +52,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:34:37 UTC</createdTime>
 <comment><![CDATA[fecha de inicio de suscipcion ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -65,7 +65,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:35:26 UTC</createdTime>
 <comment><![CDATA[fecha de fin de suscipcion ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -75,12 +75,12 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estadoSuscipcion" id="7707EBFE-C851-A0EF-CB14-F3FA91E74732">
+<Attribute name="estadoSuscripcion" id="7707EBFE-C851-A0EF-CB14-F3FA91E74732">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:36:15 UTC</createdTime>
 <comment><![CDATA[Check para estadoSuscripcion:
 'Activa', 'Cancelada', 'Vencida']]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -102,7 +102,7 @@
 <createdTime>2026-04-28 15:39:02 UTC</createdTime>
 <comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
 <generatorID>FD32B28D-8017-D466-8328-B8E174613B66</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -117,7 +117,7 @@
 <identifier id="2E9CB5E8-4FA8-3A43-D260-725DF6B14DFB" name="Suscripcion PK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:29:35 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>

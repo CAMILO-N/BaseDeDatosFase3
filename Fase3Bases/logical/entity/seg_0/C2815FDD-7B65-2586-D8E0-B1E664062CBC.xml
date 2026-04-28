@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2815FDD-7B65-2586-D8E0-B1E664062CBC" name="Reproduccion">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:55:01 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:55:07 UTC</createdTime>
 <comment><![CDATA[Identirficador unico del evento reproduccion ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:55:29 UTC</createdTime>
 <comment><![CDATA[fecha de reproduccion ]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -45,7 +45,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:58:10 UTC</createdTime>
 <comment><![CDATA[Duraciion de la reproduccion no puede ser menor a 0 o null]]></comment>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -59,7 +59,7 @@
 <createdTime>2026-04-15 02:08:30 UTC</createdTime>
 <comment><![CDATA[Este es el identificador principal del usuario este es unico ]]></comment>
 <generatorID>647E3C33-3751-BEDA-C75D-488A8947B721</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -69,12 +69,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idCancion" id="DCC200EC-B56E-9635-6EA0-95974460C2A5">
+<Attribute name="Cancion idCancion" id="DCC200EC-B56E-9635-6EA0-95974460C2A5">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 17:52:33 UTC</createdTime>
 <comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
 <generatorID>6B30B5FE-67B5-23EA-D11B-4762137B1C21</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
@@ -89,10 +89,22 @@
 <identifier id="5B3A797B-96BF-A381-53E8-A118C2CD203F" name="Reproduccion PK">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-14 21:55:17 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>7B063E77-F607-A752-A450-943D05418D87</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3F73920D-DBBA-3EA3-BC9E-38742CBE408D" name="Reproduccion PK">
+<createdBy>CAMOL</createdBy>
+<createdTime>2026-04-28 19:47:31 UTC</createdTime>
+<generatorID>F03F9B27-C4C7-777B-9E84-A1828FE3896F</generatorID>
+<ownerDesignName>Fase3Bases</ownerDesignName>
+<engineerTo>
+<item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -3,7 +3,7 @@
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <generatorID>B92A0DA2-3517-2A16-1ACC-6398A479323A</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -13,7 +13,7 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Identificador unico y principal de las canciones ]]></comment>
 <generatorID>20B7C25F-1C30-8A37-B0BF-6224DF2A4151</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,11 +25,12 @@
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Nombre de la cancion]]></comment>
 <generatorID>49D46FF3-E285-6C58-1E41-C8A9CDCCABDF</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="duracionCancion" id="B4ADAD92-5468-5DD8-2772-051DDDA60ECE">
@@ -38,7 +39,7 @@
 <comment><![CDATA[Duracion de la cancion, basado en minutos, es flotante:
 ej: 5.25. 5 minutos 25 segundos]]></comment>
 <generatorID>10FD0AAF-6276-3B4D-B610-5F747660CFF2</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <constraintName>CONSTRAIN_duracionCancion</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +59,7 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <comment><![CDATA[Idioma de la cancion]]></comment>
 <generatorID>E7A92F26-4946-47BD-79DA-DFB5BB6164F6</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -72,7 +73,7 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <createdTime>2026-04-28 16:43:54 UTC</createdTime>
 <comment><![CDATA[Identificador unico del genero]]></comment>
 <generatorID>0B2FC8B1-8BD6-8C5D-5C95-7CD27C503D5B</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -88,7 +89,7 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <createdTime>2026-04-28 17:22:07 UTC</createdTime>
 <comment><![CDATA[Identificador unico del album]]></comment>
 <generatorID>550F9A26-5440-E68D-3D9E-59AB590FF149</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -106,7 +107,7 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-15 04:37:11 UTC</createdTime>
 <generatorID>E6ACA592-CB64-51E7-3015-5B29C2ECC90D</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -118,7 +119,7 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 16:43:54 UTC</createdTime>
 <generatorID>4A941082-75D2-9A03-8A44-3DC7D4CC5DFF</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -129,7 +130,7 @@ ej: 5.25. 5 minutos 25 segundos]]></comment>
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 17:22:07 UTC</createdTime>
 <generatorID>D9D5894D-F8EA-E20C-5D51-7AC6A4EEC7B3</generatorID>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

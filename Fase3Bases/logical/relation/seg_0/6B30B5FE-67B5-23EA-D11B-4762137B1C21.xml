@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ReproduccionCancion" directorySegmentName="seg_0" id="6B30B5FE-67B5-23EA-D11B-4762137B1C21">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reproduccion Cancion FK" directorySegmentName="seg_0" id="6B30B5FE-67B5-23EA-D11B-4762137B1C21">
 <createdBy>CAMOL</createdBy>
 <createdTime>2026-04-28 17:52:33 UTC</createdTime>
-<ownerDesignName>Fase2Bases</ownerDesignName>
+<ownerDesignName>Fase3Bases</ownerDesignName>
 <engineerTo>
 <item key="B0F49341-0341-AD5F-41CE-3502E085468B" value="true"/>
 </engineerTo>
